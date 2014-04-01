@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Melon Drual Theme Documentation</title>
+</head>
+<body>
+<h1>Melon Drual Theme Documentation</h1>
+<h3>About</h3>
+<p>Each content type have two custom fields - Title and Intro. Both are displayied in the page header. </p>
+<p>All block templates are easy to override by nameing in the same name as default template file and storing it in the Theme's template folder</p>
+
+<h5>About Blocks</h5>
+<table>
+    <th>
+        <td>Name</td>
+        <td>Template File</td>
+        <td>Info</td>
+    </th>
+    <tr>
+        <td>Melon Theme: Page Statistics</td>
+        <td>block--melon-theme--page-stats.tpl.php</td>
+        <td>This block is usually assigned to the region - 'Page Header' and it displays business statistics likely related to the current page but, perhaps, can be for business as whole</td>
+    </tr>
+    <tr>
+        <td>Melon Theme: Crumb Buttons</td>
+        <td>block--melon-theme--crumb-buttons.tpl.php</td>
+        <td>This block is usually assigned to the region - "Breadcrumbs" and it is menu like block for overview of Statistics, Users and Calendar to set date range </td>
+    </tr>
+</table>
+
+<h5>About Regions</h5>
+<table>
+    <th>
+        <td>Name</td>
+        <td>Machine Name</td>
+        <td>Info</td>
+    </th>
+    <tr>
+        <td>Page Header</td>
+        <td>page_header</td>
+        <td>Region on top of each page next to page title and intro information</td>
+    </tr>
+    <tr>
+        <td>Breadcrumbs</td>
+        <td>breadcrumbs</td>
+        <td>Region on the right of the breadcrumbs on the top of the page</td>
+    </tr>
+</table>
+
+</body>
+</html>

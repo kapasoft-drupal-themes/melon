@@ -1,0 +1,9 @@
+
+/*fix sidebar conflict with admin overlay*/
+#sidebar {
+    z-index: 500;
+}
+
+.navbar{
+    z-index: 500;
+}
